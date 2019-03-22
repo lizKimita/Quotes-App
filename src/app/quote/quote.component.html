@@ -3,11 +3,14 @@
 <hr>
   <div class = "jumbotron">
     <app-quote-form></app-quote-form>
-  </div>
-  <div *ngFor='let quote of quotes; let i=index'>
-      <div class =form-control>{{quote.message}} </div>
-      <p>Submitted on {{quote.inputDate|date}}</p>
+  </div>                
+        <div *ngFor='let quote of quotes; let i=index'>   
+        <div class =form-control>{{quote.message}}</div>  
+        <p>submitted {{quote.inputDate|dateCount}} days ago</p>
+      
       <button class = "btn btn-info" (click) = revealDetails(i)> More Details </button>
+      <br>
+      <br>
       <app-quote-details *ngIf="quote.showDetails"[quote] = 'quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
   </div>
 
