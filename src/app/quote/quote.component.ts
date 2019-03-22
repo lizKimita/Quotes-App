@@ -21,6 +21,13 @@ revealDetails(i){
   this.quotes[i].showDetails = !this.quotes[i].showDetails;
 }
 
+upvote(i){
+  this.quotes[i].upvotes+=1
+}
+downvote(i){
+  this.quotes[i].downvotes+=1
+}
+
 deleteQuote(isComplete, index){
   if (isComplete){
     let toDelete=confirm(` Are you sure you want to delete; " ${this.quotes[index].message}"`)
@@ -29,6 +36,13 @@ deleteQuote(isComplete, index){
       this.quotes.splice(index,1)
     }
   }
+}
+
+addNewQuote(quote){
+  let quoteLength = this.quotes.length;
+  quote.id=quoteLength+1;
+  quote.inputDate = new Date(quote.inputDate);
+  this.quotes.push(quote)
 }
   constructor() { }
 

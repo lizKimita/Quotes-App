@@ -1,5 +1,5 @@
 <div class = "container-fluid">
-  <form #quoteForm='ngForm'>
+  <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
     <div class = "form-group">
       <label for="message"> <strong>Quote</strong>  </label>
       <textarea id ="message" rows ="3" class = "form-control" required [(ngModel)]="newQuote.message" name="message" #message="ngModel"></textarea>
