@@ -2,4 +2,6 @@
 <p>Author: {{quote.author}}</p>
 <p>Votes: {{quote.votes}}</p>
 
+<p>This Quote was submitted {{quote.inputDate|dateCount}} days ago</p>
+
 <button (click) = 'quoteDelete(true)'> Delete Quote </button>
