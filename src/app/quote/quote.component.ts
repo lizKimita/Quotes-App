@@ -17,6 +17,9 @@ export class QuoteComponent implements OnInit {
     new Quote(7,'Asenath','I would like to live like a poor man,only with lots of money.','Pablo Picasso',100),
 ]
 
+revealDetails(i){
+  this.quotes[i].showDetails = !this.quotes[i].showDetails;
+}
   constructor() { }
 
   ngOnInit() {
