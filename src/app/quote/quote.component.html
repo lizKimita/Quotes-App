@@ -1,13 +1,14 @@
 <div class =container>
-    <h1> My Quotes </h1>
+    <h1><strong>My Quotes</strong></h1>
 <hr>
-
-<ul>
+  <div class = "jumbotron">
+    <app-quote-form></app-quote-form>
+  </div>
   <div *ngFor='let quote of quotes; let i=index'>
-      <li>{{quote.message}} </li>
+      <div class =form-control>{{quote.message}} </div>
       <p>Submitted on {{quote.inputDate|date}}</p>
-      <button  class = "btn btn-info" (click) = revealDetails(i)> More Details </button>
+      <button class = "btn btn-info" (click) = revealDetails(i)> More Details </button>
       <app-quote-details *ngIf="quote.showDetails"[quote] = 'quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
   </div>
-</ul>
+
 </div>
