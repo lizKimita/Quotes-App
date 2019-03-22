@@ -16,14 +16,8 @@
           <label for="author"> <strong>Original Author</strong>  </label>
           <input type="text" required id ="author" class = "form-control" [(ngModel)]="newQuote.author" name="author" #author="ngModel">
           <div [hidden] = "author.valid || author.pristine" class ="alert alert-danger"><p>The Author is Required</p></div>
-          
+ 
         </div>
-        <div class = "form-group">
-            <label for="date"> <strong>Date of Submission</strong> </label>
-            <input type="date" required id ="date" class="form-control" [(ngModel)]="newQuote.date" name="date" #date="ngModel">
-            <div [hidden] = "date.valid || date.pristine" class ="alert alert-danger"><p>Submission Date is Required</p></div>
-            
-          </div>
         <button type="submit" class="btn btn-warning btn-lg">Add Quote</button>
   </form>
 </div>
