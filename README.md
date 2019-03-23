@@ -1,6 +1,15 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+This is a quotes application that was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5. It allows users to read other users quotes, upvote and downvote them, add their own quotes and even delete quotes.
+
+## Setup/ User Requirements
+The user can:
+* Log into the app and read quotes from other users.
+* They can Upvote a quote they like.
+* They can downvote one that they do not like.
+* Add a new quote.
+* Delete a quote.
+* View the number of upvotes and downvotes on each quote.
 
 ## Development server
 
@@ -25,3 +34,43 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Technology Used
+
+* Angular JS to to create the business logic and the user- interface.
+* HTML to write the templates.
+* CSS for the app styling.
+* Markdown for the README document.
+
+ ## Known Bugs
+ 
+ There are currently no known bugs.
+
+ ## Support and contact details
+
+For more information, questions, or help using the program, get in touch with me on +254 726 047102 or email: kimita.wanjiku@gmail.com.
+
+
+## License
+
+MIT License
+
+Copyright (c) 2019 Elizabeth Kimita
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sub-license, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
