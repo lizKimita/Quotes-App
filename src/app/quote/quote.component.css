@@ -1,0 +1,16 @@
+
+.well {
+    background-color: aliceblue;
+    padding: 2%;
+}
+h1{
+    background-color: cadetblue;
+    border: 1px solid #777;
+    text-decoration-line: underline;
+}
+.jumbotron {
+    background-color: aliceblue;
+}
+.form-control {
+    width: 60%;
+}
