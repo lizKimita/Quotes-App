@@ -4,12 +4,13 @@
     padding: 2%;
 }
 h1{
-    background-color: cadetblue;
+    background-color: rgb(70, 190, 194);
     border: 1px solid #777;
     text-decoration-line: underline;
 }
 .jumbotron {
     background-color: aliceblue;
+    padding-bottom: 0%;
 }
 .form-control {
     width: 60%;
