@@ -15,4 +15,9 @@ h1{
 .form-control {
     width: 60%;
 }
-    
+.leftvote {
+    margin-right: 2%;
+}
+.rightvote {
+    margin-left: 2%;
+}
