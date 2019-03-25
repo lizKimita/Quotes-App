@@ -14,7 +14,7 @@
       </div>
       <div class = "form-group">
           <label for="author"> <strong>Original Author</strong>  </label>
-          <input type="text" required id ="author" class = "form-control" [(ngModel)]="newQuote.author" name="author" #author="ngModel">
+          <input type="text" id ="author" class = "form-control" [(ngModel)]="newQuote.author" name="author" #author="ngModel">
           <div [hidden] = "author.valid || author.pristine" class ="alert alert-danger"><p>The Author is Required</p></div>
  
         </div>
