@@ -12,12 +12,17 @@ h1{
     background-color: aliceblue;
     padding-bottom: 0%;
 }
-.form-control {
-    width: 70%;
-}
 .leftvote {
     margin-right: 2%;
 }
 .rightvote {
     margin-left: 2%;
+}
+.card{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    float: left;
+    width: 35%;
 }
